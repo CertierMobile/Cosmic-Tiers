@@ -21,7 +21,7 @@ const recentTestList = document.getElementById("recentTestList");
 
 const highTiers = ["ht3", "ht2", "ht1", "lt2", "lt1"];
 const lowTiers = ["lt5", "lt4", "lt3", "ht4", "ht5"];
-const modes = ["sword", "smp", "crystal", "pot", "uhc", "axe", "neth_pot"];
+const modes = ["sword", "smp", "crystal", "pot", "uhc", "axe"];
 const regions = ["na", "eu"];
 
 function createEntry(p) {
