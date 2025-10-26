@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cosmic Tiers</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="starfield"></div>
+  <div class="wormhole"></div>
+  <div class="spiral">
+    <div class="spiral-arm" style="transform:rotate(0deg)"></div>
+    <div class="spiral-arm" style="transform:rotate(72deg)"></div>
+    <div class="spiral-arm" style="transform:rotate(144deg)"></div>
+    <div class="spiral-arm" style="transform:rotate(216deg)"></div>
+    <div class="spiral-arm" style="transform:rotate(288deg)"></div>
+  </div>
+  <div class="nebula nebula1"></div>
+  <div class="nebula nebula2"></div>
+  <div class="nebula nebula3"></div>
+
+  <nav class="navbar">
+    <a class="nav-button" href="#"><img src="https://pvptiers.com/icons/navigation/home.svg" alt="Home"> Home</a>
+    <a class="nav-button" href="#"><img src="https://pvptiers.com/icons/navigation/tiers-list.svg" alt="Tierlist"> Tierlist</a>
+    <a class="nav-button" href="#"><img src="https://pvptiers.com/icons/navigation/community.svg" alt="Community"> Community</a>
+    <a class="nav-button" href="#"><img src="https://pvptiers.com/icons/navigation/resources.svg" alt="Resources"> Resources</a>
+    <a class="nav-button" href="#"><img src="https://pvptiers.com/icons/navigation/server.svg" alt="Server"> Server</a>
+    <a class="nav-button" href="#"><img src="https://pvptiers.com/icons/navigation/support.svg" alt="Support"> Support</a>
+    <a class="nav-button" href="#"><img src="https://pvptiers.com/icons/navigation/store.svg" alt="Store"> Store</a>
+  </nav>
+
+  <div class="main-wrapper">
+    <div class="results-wrapper">
+      <div class="results-section" id="highTier">
+        <div class="section-title">High Tier Results</div>
+        <div class="section-subtitle">LATEST HT3+ RESULTS</div>
+        <div id="highTierList"></div>
+      </div>
+
+      <div class="results-section" id="recentTests">
+        <div class="section-title">Low Tier Results</div>
+        <div class="section-subtitle">LATEST LT5-LT3 RESULTS</div>
+        <div id="recentTestList"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
