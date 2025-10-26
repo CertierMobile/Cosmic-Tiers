@@ -166,7 +166,7 @@ body{
 /* Top Players Leaderboard */
 .top-players-leaderboard{
   position:fixed;
-  top:100px;
+  top:130px;
   left:550px;
   z-index:5;
   width:850px;
