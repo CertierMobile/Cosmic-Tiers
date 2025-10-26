@@ -166,9 +166,8 @@ body{
 /* Top Players Leaderboard */
 .top-players-leaderboard{
   position:fixed;
-  top:50%;
-  right:80px;
-  transform:translateY(-50%);
+  top:100px;
+  left:550px;
   z-index:5;
   width:850px;
   display:flex;
